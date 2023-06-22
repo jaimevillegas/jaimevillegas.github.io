@@ -26,8 +26,8 @@ header {
   gap: 0.8rem;
   position: absolute;
   left: 0;
-  top: 30rem;
-  /* bottom: 3rem; */
+  /* top: 30rem; */
+  bottom: 3rem;
 }
 
 .header__socials::after {
@@ -42,8 +42,9 @@ header {
   background: linear-gradient(var(--color-primary), transparent);
   width: 22rem;
   height: 30rem;
-  position: absolute;
-  left: calc(50% - 11rem);
+  margin: auto;
+  /* position: absolute; */
+  /* left: calc(50% - 11rem); */
   margin-top: 4rem;
   border-radius: 12rem 12rem 0 0;
   overflow: hidden;
@@ -54,9 +55,29 @@ header {
 .scroll__down {
   position: absolute;
   right: -2.3rem;
-  /* bottom: 5rem; */
-  top: 35rem;
+  bottom: 5rem;
+  /* top: 35rem; */
   transform: rotate(90deg);
   font-weight: 300;
   font-size: 0.9rem;
+}
+
+/* ========= MEDIA QUERIES (MEDIUM DEVICES) ========= */
+@media (max-width: 1024px) {
+  header {
+    /* height: 68vh; */
+    height: 100vh;
+  }
+}
+
+/* ========= MEDIA QUERIES (SMALL DEVICES) ========= */
+@media (max-width: 600px) {
+  header {
+    height: 100vh;
+  }
+
+  .header__socials,
+  .scroll__down {
+    display: none;
+  }
 }
