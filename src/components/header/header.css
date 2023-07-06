@@ -67,14 +67,20 @@ header {
 @media (max-width: 1024px) {
   header {
     /* height: 68vh; */
-    /* height: 100vh; */
+    height: 100vh;
   }
 }
 
 /* ========= MEDIA QUERIES (SMALL DEVICES) ========= */
 @media (max-width: 600px) {
   header {
-    height: 100vh;
+    height: 90vh;
+  }
+
+  .me {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 10rem 10rem 0 0;
   }
 
   .header__socials,

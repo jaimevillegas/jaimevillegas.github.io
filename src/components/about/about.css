@@ -90,11 +90,18 @@
   .about__me {
     width: 65%;
     margin: 0 auto 3rem;
+    padding: 0;
   }
 
   .about__cards {
+    margin: 0;
+    padding: 0;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
+  }
+
+  .about__container {
+    margin: 10px;
   }
 
   .about__content {
