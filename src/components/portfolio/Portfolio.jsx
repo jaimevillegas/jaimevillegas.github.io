@@ -1,53 +1,53 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
+import IMG1 from '../../assets/portfolio1.png'
+import IMG2 from '../../assets/portfolio2.png'
+import IMG3 from '../../assets/portfolio3.png'
+import IMG4 from '../../assets/portfolio4.png'
 import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
+import IMG6 from '../../assets/portfolio6.png'
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'This is a portfolio item title',
-    github: '#',
-    demo: '#'
+    title: 'Robotics Global Summit',
+    github: 'https://github.com/jaimevillegas/capstone_first_module',
+    demo: 'https://jaimevillegas.github.io/capstone_first_module/'
   },
   {
     id: 2,
     image: IMG2,
-    title: 'This is a portfolio item title',
-    github: '#',
-    demo: '#'
+    title: 'IoT Expenses',
+    github: 'https://github.com/jaimevillegas/rails-capstone-project',
+    demo: 'https://rails-capstone-project.onrender.com/'
   },
   {
     id: 3,
     image: IMG3,
-    title: 'This is a portfolio item title',
-    github: '#',
-    demo: '#'
+    title: 'Rails Recipe App',
+    github: 'https://github.com/jaimevillegas/recipe-app',
+    demo: 'https://recipe-app-29so.onrender.com/foods'
   },
   {
     id: 4,
     image: IMG4,
-    title: 'This is a portfolio item title',
+    title: 'Rails Blog App',
     github: '#',
     demo: '#'
   },
   {
     id: 5,
     image: IMG5,
-    title: 'This is a portfolio item title',
-    github: '#',
-    demo: '#'
+    title: 'Artist Metrics Webapp',
+    github: 'https://github.com/jaimevillegas/artist-metrics-webapp',
+    demo: 'https://artist-metrics-webapp.onrender.com/artist-metrics-webapp'
   },
   {
     id: 6,
     image: IMG6,
-    title: 'This is a portfolio item title',
-    github: '#',
+    title: 'PLL FM Dashboard',
+    github: 'https://github.com/jaimevillegas/PLL-FM-LVGL',
     demo: '#'
   }
 ];

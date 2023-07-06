@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me-about.jpg'
+import ME from '../../assets/me-about.png'
 import {FaAward} from 'react-icons/fa'
 import { FiUsers } from 'react-icons/fi'
 import { LuFolderCheck } from 'react-icons/lu'
@@ -23,24 +23,28 @@ const About = () => {
             <article className="about__card">
               <FaAward className='about__icon' />
               <h5>Experience</h5>
-              <small>7+ Years Working</small>
+              <small>7+ Years on Engineering</small>
+              <br />
+              <small>1+ Years on Web Development</small>
             </article>
 
             <article className="about__card">
               <FiUsers className='about__icon' />
               <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <small>30+ Worldwide</small>
             </article>
 
             <article className="about__card">
               <LuFolderCheck className='about__icon' />
               <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <small>30+ Completed</small>
             </article>
           </div>
 
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, enim? Sed neque soluta reiciendis beatae temporibus ea perspiciatis praesentium dolore autem sequi nesciunt, vero voluptas veniam nobis suscipit omnis iusto?
+            Mechatronics Engineer and Full-Stack web developer. open-source enthusiast with a love for hardware, IoT, 3D printing, CAD Design, and Robotics. Pair-programming and
+            remote work aficionado. Fluent in multiple languages, frameworks, software, and technologies, and capable of ramping up quickly and efficiently. With 7+ years of experience
+            on designing machinery and industrial ready-to-build models using CAD software. 1+ years of experience on web development, building web applications using the latest technologies.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
