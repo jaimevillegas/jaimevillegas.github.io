@@ -1,0 +1,14 @@
+{
+  "header": {
+    "h5": "Hola, Yo soy",
+    "description": "Un Desarrollador Web Full-Stack e Ingeniero Mecatrónico",
+    "scroll": "Ir Abajo"
+  },
+  "CTA": {
+    "CV": "Descargar CV",
+    "contact": "Hablemos"
+  },
+  "home": {
+    "message": "Esto es un mensaje en home"
+  }
+}

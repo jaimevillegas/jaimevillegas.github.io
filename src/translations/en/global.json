@@ -1,0 +1,14 @@
+{
+  "header": {
+    "h5": "Hello, I'm",
+    "description": "A Full-Stack Web Developer and Mechatrhonics Engineer",
+    "scroll": "Scroll Down"
+  },
+  "CTA": {
+    "CV": "Download CV",
+    "contact": "Let's Talk"
+  },
+  "home": {
+    "message": "This is a message on home"
+  }
+}
