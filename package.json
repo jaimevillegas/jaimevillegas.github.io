@@ -1,6 +1,7 @@
 {
   "name": "personal-portfolio",
   "version": "0.1.0",
+  "homepage": "https://jaimevillegas.github.io",
   "private": true,
   "dependencies": {
     "@babel/core": "^7.16.0",
