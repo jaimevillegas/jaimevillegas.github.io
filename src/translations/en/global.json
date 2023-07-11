@@ -19,5 +19,13 @@
     "ProjectsTitle": "Projects",
     "ProjectsDescription": "30+ Completed",
     "AboutDescription": "Mechatronic Engineer and Full-Stack Web developer, with a deep passion for building solutions that integrate hardware and software like robots, machinery and apps for companies and individuals. Proficient in multiple languages, frameworks, software and technologies. Skilled at quickly adapting and learning new tools efficiently. With over 7 years of experience in designing machinery and creating industrial ready-to-build models using CAD software, I also have over 1 year of experience in web development, where I specialize in building web applications utilizing cutting-edge technologies."
+  },
+  "experience": {
+    "titleSmall": "The Skills I Have",
+    "titleBig": "Experience",
+    "Frontend": "Frontend Development",
+    "Backend": "Backend Development",
+    "EngTools": "Engineering Tools",
+    "CAD": "CAD Design"
   }
 }

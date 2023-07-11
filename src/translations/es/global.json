@@ -22,5 +22,13 @@
     "ProjectsTitle": "Proyectos",
     "ProjectsDescription": "30+ Completados",
     "AboutDescription": "Ingeniero Mecatrónico y Desarrollador Web Full-Stack, con una profunda pasión por construir soluciones que integren hardware y software como robots, maquinaria y aplicaciones para empresas y particulares. Competente en múltiples lenguajes, frameworks, software y tecnologías. Con habilidad para adaptarse rápidamente a cualquier situación y aprender nuevas herramientas de manera eficiente. Con más de 7 años de experiencia en el diseño de maquinaria y en la creación de modelos industriales listos para construir utilizando software CAD. Cuento con más de 1 año de experiencia en desarrollo web, donde me especializo en la creación de aplicaciones web utilizando tecnologías de vanguardia."
+  },
+  "experience": {
+    "titleSmall": "",
+    "titleBig": "Experiencia",
+    "Frontend": "Desarrollo Frontend",
+    "Backend": "Desarrollo Backend",
+    "EngTools": "Herramientas de Ingeniería",
+    "CAD": "Diseño CAD"
   }
 }
