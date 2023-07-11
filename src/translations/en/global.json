@@ -1,14 +1,23 @@
 {
   "header": {
     "h5": "Hello, I'm",
-    "description": "A Full-Stack Web Developer and Mechatrhonics Engineer",
+    "description": "A Full-Stack Web Developer and Mechatrhonic Engineer",
     "scroll": "Scroll Down"
   },
   "CTA": {
     "CV": "Download CV",
     "contact": "Let's Talk"
   },
-  "home": {
-    "message": "This is a message on home"
+  "about": {
+    "titleSmall": "Get To Know",
+    "titleBig": "About Me",
+    "ExperienceTitle": "Experiencie",
+    "ExperienceEngineering": "7+ Years on Engineering",
+    "ExperienceWeb": "1+ Years on Web Development",
+    "ClientsTitle": "Clients",
+    "ClientsDescription": "30+ Worldwide",
+    "ProjectsTitle": "Projects",
+    "ProjectsDescription": "30+ Completed",
+    "AboutDescription": "Mechatronic Engineer and Full-Stack Web developer, with a deep passion for building solutions that integrate hardware and software like robots, machinery and apps for companies and individuals. Proficient in multiple languages, frameworks, software and technologies. Skilled at quickly adapting and learning new tools efficiently. With over 7 years of experience in designing machinery and creating industrial ready-to-build models using CAD software, I also have over 1 year of experience in web development, where I specialize in building web applications utilizing cutting-edge technologies."
   }
 }
