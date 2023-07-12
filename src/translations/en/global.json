@@ -27,5 +27,21 @@
     "Backend": "Backend Development",
     "EngTools": "Engineering Tools",
     "CAD": "CAD Design"
+  },
+  "services": {
+    "titleSmall": "What I Offer",
+    "titleBig": "Services",
+    "webDevTitle": "Web Development",
+    "CADTitle": "CAD Design",
+    "MechTitle": "Mechatronics",
+    "webDevService1": "Responsive Web Design: Creation of websites that are optimized for various devices and screen sizes, providing a seamless user experience.",
+    "webDevService2": "Front-End Development: Build interactive and visually appealing user interfaces using HTML, CSS, JavaScript, React and Redux.",
+    "webDevService3": "Back-End Development: Build robust server-side logic and databases using Ruby on Rails and PostgreSQL.",
+    "CADService1": "2D Drafting: Creation of accurate and detailed 2D technical drawings and plans.",
+    "CADService2": "3D Modelling: Creation of 3D models of machinery parts, products, mechanical parts and ready-to-build prototipes, ensuring functionality and aesthetics.",
+    "CADService3": "Simulation: Performance analysis of parts and assemblies subjected to different physical variables. Generation of Static, Dynamic, Thermal and Movement simulations, ensuring optimal performance in production.",
+    "MechService1": "System Design and Integration: I specialize in designing and integrating complex mechatronic systems by combining mechanical, electrical, and control engineering principles.",
+    "MechService2": "Robotics and Automation: I possess expertise in designing and developing robotic systems and automation solutions for various industries, optimizing efficiency and productivity.",
+    "MechService3": "Embedded Systems Development: Programming and development of embedded systems for mechatronic applications, including microcontroller programming, firmware development, and interfacing with sensors and actuators."
   }
 }

@@ -30,5 +30,21 @@
     "Backend": "Desarrollo Backend",
     "EngTools": "Herramientas de Ingeniería",
     "CAD": "Diseño CAD"
+  },
+  "services": {
+    "titleSmall": "Qué ofrezco",
+    "titleBig": "Servicios",
+    "webDevTitle": "Desarrollo Web",
+    "CADTitle": "Diseño CAD",
+    "MechTitle": "Mecatrónica",
+    "webDevService1": "Diseño Web Responsivo: Creación de sitios web optimizados para varios dispositivos y tamaños de pantalla, ofreciendo una experiencia de usuario óptima.",
+    "webDevService2": "Desarrollo Front-End: Creación de interfaces de usuario atractivas visualmente usando HTML, CSS, JavaScript, React y Redux.",
+    "webDevService3": "Desarrollo Back-End: Construcción de bases de datos y aplicaciones del lado del servidor robustas usando Ruby on Rails y PostgreSQL.",
+    "CADService1": "Dibujo 2D: Creación de dibujos técnicos y planos 2D detallados y precisos.",
+    "CADService2": "Modelado 3D: Creación de modelos 3D de maquinaria, productos, piezas mecánicas y prototipos listos para construir, asegurando funcionalidad y estética.",
+    "CADService3": "Simulación: Análisis del rendimiento de piezas y ensamblajes sometidos a diferentes variables físicas. Simulación Estática, Dinámica, Térmica, De movimiento y demás, asegurando un óptimo desempeño en la etapa de producción.",
+    "MechService1": "Diseño de sistemas: Especialización en diseño e integración de sistemas mecatrónicos, combinando principios mecánicos, eléctricos y de control.",
+    "MechService2": "Automatización y Robótica: Experiencia en el diseño y desarrollo de sistemas robóticos y de automatización para el sector industrial, optimizando eficiencia y productividad.",
+    "MechService3": "Diseño Desarrollo para Sistemas Embebidos: Programación y desarrollo en plataformas PIC, Arduino, ESP32 y Raspberry Pi. Diseño de Placas de Circuito Impreso PCB integrando sistemas electrónicos con dispositivos programados."
   }
 }
