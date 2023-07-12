@@ -12,15 +12,47 @@ const Header = () => {
     i18n.changeLanguage(lang);
   };
 
+  const leftClick = () => {
+    const btn = document.getElementById('btn');
+    const btn1 = document.querySelector('.btn-1');
+    const btn2 = document.querySelector('.btn-2');
+    btn.style.left = '0px';
+    btn2.style.color = 'var(--color-primary)';
+    btn1.style.color = 'black';
+  }
+
+  const rightClick = () => {
+    const btn = document.getElementById('btn');
+    const btn1 = document.querySelector('.btn-1');
+    const btn2 = document.querySelector('.btn-2');
+    btn.style.left = '100px';
+    btn1.style.color = 'var(--color-primary)';
+    btn2.style.color = 'black';
+  }
+
+
   return (
     <header>
       <div className="container">
         <div className="header__container">
+
+          <div class="form-box">
+            <div className="button-box">
+              <div id="btn"></div>
+              <button type="button" class="toggle-btn btn-1" onClick={() => {
+                handleChangeLanguage('en');
+                leftClick();
+              }
+              }>English</button>
+              <button type="button" class="toggle-btn btn-2" onClick={() => {
+                handleChangeLanguage('es');
+                rightClick();
+              }
+              }>Español</button>
+            </div>
+          </div>
           <h5>{t("header.h5")}</h5>
           <h1>Jaime Villegas</h1>
-
-          <button onClick={() => handleChangeLanguage('en')}>EN</button>
-          <button onClick={() => handleChangeLanguage('es')}>ES</button>
           <h5 className="text-light">{t("header.description")}</h5>
           <CTA />
 

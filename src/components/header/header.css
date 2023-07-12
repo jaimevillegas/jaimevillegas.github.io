@@ -1,6 +1,6 @@
 header {
-  height: 100vh;
-  padding-top: 7rem;
+  /* height: 100vh; */
+  padding-top: 2rem;
   overflow: hidden;
 }
 
@@ -8,6 +8,41 @@ header {
   text-align: center;
   height: 100%;
   position: relative;
+}
+
+.button-box {
+  width: 200px;
+  margin: 35px auto;
+  position: relative;
+  border-radius: 10px;
+  background: transparent;
+  border: 1px solid var(--color-primary);
+}
+
+.toggle-btn {
+  padding: 20px;
+  cursor: pointer;
+  background: transparent;
+  /* border: 0; */
+  /* outline: none; */
+  position: relative;
+  text-align: center;
+  font-size: 16px;
+}
+
+.btn-2 {
+  color: var(--color-primary);
+}
+
+#btn {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100px;
+  height: 100%;
+  background: var(--color-primary);
+  border-radius: 8px;
+  transition: 0.5s;
 }
 
 /* ======== CTA ======== */
@@ -67,14 +102,14 @@ header {
 @media (max-width: 1024px) {
   header {
     /* height: 68vh; */
-    height: 100vh;
+    /* height: 100vh; */
   }
 }
 
 /* ========= MEDIA QUERIES (SMALL DEVICES) ========= */
 @media (max-width: 600px) {
   header {
-    height: 90vh;
+    /* height: 90vh; */
   }
 
   .me {
