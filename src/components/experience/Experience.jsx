@@ -1,17 +1,19 @@
 import React from 'react'
 import './experience.css'
+import { useTranslation } from 'react-i18next'
 
 import {BsPatchCheckFill} from 'react-icons/bs'
 
 const Experience = () => {
+  const [t, i18n] = useTranslation('global');
   return (
     <section id='experience'>
-      <h5>The Skills I Have</h5>
-      <h2>My Experience</h2>
+      <h5>{t("experience.titleSmall")}</h5>
+      <h2>{t("experience.titleBig")}</h2>
 
       <div className="container experience__container">
         <div className="experience__frontend">
-          <h3>Frontend Development</h3>
+          <h3>{t("experience.Frontend")}</h3>
           <div className="experience__content">
 
             <article className='experience__details'>
@@ -72,7 +74,7 @@ const Experience = () => {
         </div>
 
         <div className="experience__backend">
-          <h3>Backend Development</h3>
+          <h3>{t("experience.Backend")}</h3>
           <div className="experience__content">
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
@@ -106,7 +108,7 @@ const Experience = () => {
         </div>
 
         <div className="experience__backend">
-          <h3>Engineering Tools and Languages</h3>
+          <h3>{t("experience.EngTools")}</h3>
           <div className="experience__content">
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
@@ -176,7 +178,7 @@ const Experience = () => {
 
 
         <div className="experience__backend">
-          <h3>CAD Modelling</h3>
+          <h3>{t("experience.CAD")}</h3>
           <div className="experience__content">
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>

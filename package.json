@@ -29,6 +29,7 @@
     "file-loader": "^6.2.0",
     "fs-extra": "^10.0.0",
     "html-webpack-plugin": "^5.5.0",
+    "i18next": "^23.2.8",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^27.4.3",
     "jest-resolve": "^27.4.2",
@@ -44,6 +45,7 @@
     "react-app-polyfill": "^3.0.0",
     "react-dev-utils": "^12.0.1",
     "react-dom": "^18.2.0",
+    "react-i18next": "^13.0.1",
     "react-icons": "^4.9.0",
     "react-refresh": "^0.11.0",
     "resolve": "^1.20.0",
@@ -64,8 +66,8 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "node scripts/test.js"
   },
   "eslintConfig": {

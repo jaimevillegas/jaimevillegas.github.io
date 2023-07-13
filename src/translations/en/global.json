@@ -1,0 +1,78 @@
+{
+  "header": {
+    "h5": "Hello, I'm",
+    "description": "Full-Stack Web Developer and Mechatrhonic Engineer",
+    "scroll": "Scroll Down"
+  },
+  "CTA": {
+    "CV": "Download CV",
+    "contact": "Let's Talk"
+  },
+  "about": {
+    "titleSmall": "Get To Know",
+    "titleBig": "About Me",
+    "ExperienceTitle": "Experiencie",
+    "ExperienceEngineering": "7+ Years on Engineering",
+    "ExperienceWeb": "1+ Years on Web Development",
+    "ClientsTitle": "Clients",
+    "ClientsDescription": "30+ Worldwide",
+    "ProjectsTitle": "Projects",
+    "ProjectsDescription": "30+ Completed",
+    "AboutDescription": "Mechatronic Engineer and Full-Stack Web developer, with a deep passion for building solutions that integrate hardware and software like robots, machinery and apps for companies and individuals. Proficient in multiple languages, frameworks, software and technologies. Skilled at quickly adapting and learning new tools efficiently. With over 7 years of experience in designing machinery and creating industrial ready-to-build models using CAD software, I also have over 1 year of experience in web development, where I specialize in building web applications utilizing cutting-edge technologies."
+  },
+  "experience": {
+    "titleSmall": "The Skills I Have",
+    "titleBig": "Experience",
+    "Frontend": "Frontend Development",
+    "Backend": "Backend Development",
+    "EngTools": "Engineering Tools",
+    "CAD": "CAD Design"
+  },
+  "services": {
+    "titleSmall": "What I Offer",
+    "titleBig": "Services",
+    "webDevTitle": "Web Development",
+    "CADTitle": "CAD Design",
+    "MechTitle": "Mechatronics",
+    "webDevService1": "Responsive Web Design: Creation of websites that are optimized for various devices and screen sizes, providing a seamless user experience.",
+    "webDevService2": "Front-End Development: Build interactive and visually appealing user interfaces using HTML, CSS, JavaScript, React and Redux.",
+    "webDevService3": "Back-End Development: Build robust server-side logic and databases using Ruby on Rails and PostgreSQL.",
+    "CADService1": "2D Drafting: Creation of accurate and detailed 2D technical drawings and plans.",
+    "CADService2": "3D Modelling: Creation of 3D models of machinery parts, products, mechanical parts and ready-to-build prototipes, ensuring functionality and aesthetics.",
+    "CADService3": "Simulation: Performance analysis of parts and assemblies subjected to different physical variables. Generation of Static, Dynamic, Thermal and Movement simulations, ensuring optimal performance in production.",
+    "MechService1": "System Design and Integration: I specialize in designing and integrating complex mechatronic systems by combining mechanical, electrical, and control engineering principles.",
+    "MechService2": "Robotics and Automation: I possess expertise in designing and developing robotic systems and automation solutions for various industries, optimizing efficiency and productivity.",
+    "MechService3": "Embedded Systems Development: Programming and development of embedded systems for mechatronic applications, including microcontroller programming, firmware development, and interfacing with sensors and actuators."
+  },
+  "portfolio": {
+    "titleSmall": "My Recent Work",
+    "titleBig": "Portfolio",
+    "liveDemo": "Live Demo"
+  },
+  "testimonials": {
+    "titleSmall": "Review from clients",
+    "titleBig": "Testimonials",
+    "testimonial1Title": "Shayan Ali Bakhsh",
+    "testimonial1Description": "Jaime is an exceptional software developer whom I had the privilege of working with on a web application. Jaime's attention to detail and problem-solving skills were truly impressive, and he consistently delivered high-quality work. He is a dedicated and driven individual who always goes above and beyond to ensure the success of his team. Jaime is also a friendly and supportive colleague who is always willing to help others and share his knowledge. It was a pleasure to work with Jaime, and I would highly recommend him for any software development project that demands expertise, passion, and a collaborative mindset.",
+    "testimonial2Title": "Nicolas Andres Olaya",
+    "testimonial2Description": "I highly recommend my friend as a Full Stack Developer. He is extremely punctual, respectful, and hardworking. He has a strong understanding of programming languages and frameworks, and is dedicated to constantly improving his skills. He is a great team player and always willing to lend a hand. I have no doubt that he will be an asset to any company or project he works on."
+  },
+  "contact": {
+    "titleSmall": "Get in Touch",
+    "titleBig": "Contact Me",
+    "sendMessage": "Send a Message",
+    "namePlaceholder": "Name",
+    "emailPlaceholder": "Email",
+    "messagePlaceholder": "Message",
+    "sendButton": "Send Message"
+  },
+  "footer": {
+    "home": "Home",
+    "about": "About",
+    "experience": "Experience",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "testimonials": "Testimonials",
+    "contact": "Contact"
+  }
+}

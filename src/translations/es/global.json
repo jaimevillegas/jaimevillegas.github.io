@@ -1,0 +1,81 @@
+{
+  "header": {
+    "h5": "Hola, Yo soy",
+    "description": "Desarrollador Web Full-Stack e Ingeniero Mecatrónico",
+    "scroll": "Ir Abajo"
+  },
+  "CTA": {
+    "CV": "Descargar CV",
+    "contact": "Hablemos"
+  },
+  "home": {
+    "message": "Esto es un mensaje en home"
+  },
+  "about": {
+    "titleSmall": "",
+    "titleBig": "Acerca de Mí",
+    "ExperienceTitle": "Experiencia",
+    "ExperienceEngineering": "7+ Años en Ingeniería",
+    "ExperienceWeb": "1+ Años en Desarrollo Web",
+    "ClientsTitle": "Clientes",
+    "ClientsDescription": "30+ Alrededor del mundo",
+    "ProjectsTitle": "Proyectos",
+    "ProjectsDescription": "30+ Completados",
+    "AboutDescription": "Ingeniero Mecatrónico y Desarrollador Web Full-Stack, con una profunda pasión por construir soluciones que integren hardware y software como robots, maquinaria y aplicaciones para empresas y particulares. Competente en múltiples lenguajes, frameworks, software y tecnologías. Con habilidad para adaptarse rápidamente a cualquier situación y aprender nuevas herramientas de manera eficiente. Con más de 7 años de experiencia en el diseño de maquinaria y en la creación de modelos industriales listos para construir utilizando software CAD. Cuento con más de 1 año de experiencia en desarrollo web, donde me especializo en la creación de aplicaciones web utilizando tecnologías de vanguardia."
+  },
+  "experience": {
+    "titleSmall": "",
+    "titleBig": "Experiencia",
+    "Frontend": "Desarrollo Frontend",
+    "Backend": "Desarrollo Backend",
+    "EngTools": "Herramientas de Ingeniería",
+    "CAD": "Diseño CAD"
+  },
+  "services": {
+    "titleSmall": "Qué ofrezco",
+    "titleBig": "Servicios",
+    "webDevTitle": "Desarrollo Web",
+    "CADTitle": "Diseño CAD",
+    "MechTitle": "Mecatrónica",
+    "webDevService1": "Diseño Web Responsivo: Creación de sitios web optimizados para varios dispositivos y tamaños de pantalla, ofreciendo una experiencia de usuario óptima.",
+    "webDevService2": "Desarrollo Front-End: Creación de interfaces de usuario atractivas visualmente usando HTML, CSS, JavaScript, React y Redux.",
+    "webDevService3": "Desarrollo Back-End: Construcción de bases de datos y aplicaciones del lado del servidor robustas usando Ruby on Rails y PostgreSQL.",
+    "CADService1": "Dibujo 2D: Creación de dibujos técnicos y planos 2D detallados y precisos.",
+    "CADService2": "Modelado 3D: Creación de modelos 3D de maquinaria, productos, piezas mecánicas y prototipos listos para construir, asegurando funcionalidad y estética.",
+    "CADService3": "Simulación: Análisis del rendimiento de piezas y ensamblajes sometidos a diferentes variables físicas. Simulación Estática, Dinámica, Térmica, De movimiento y demás, asegurando un óptimo desempeño en la etapa de producción.",
+    "MechService1": "Diseño de sistemas: Especialización en diseño e integración de sistemas mecatrónicos, combinando principios mecánicos, eléctricos y de control.",
+    "MechService2": "Automatización y Robótica: Experiencia en el diseño y desarrollo de sistemas robóticos y de automatización para el sector industrial, optimizando eficiencia y productividad.",
+    "MechService3": "Diseño Desarrollo para Sistemas Embebidos: Programación y desarrollo en plataformas PIC, Arduino, ESP32 y Raspberry Pi. Diseño de Placas de Circuito Impreso PCB integrando sistemas electrónicos con dispositivos programados."
+  },
+  "portfolio": {
+    "titleSmall": "Traajo Reciente",
+    "titleBig": "Portafolio",
+    "liveDemo": "Ver Demo"
+  },
+  "testimonials": {
+    "titleSmall": "",
+    "titleBig": "Testimonios",
+    "testimonial1Title": "Shayan Ali Bakhsh",
+    "testimonial1Description": "Jaime es un desarrollador de software excepcional con quien tuve el privilegio de trabajar en una aplicación web. La atención de Jaime a los detalles y las habilidades para resolver problemas fueron realmente impresionantes, y constantemente entregó un trabajo de alta calidad. Es una persona dedicada y motivada que siempre va más allá para garantizar el éxito de su equipo. Jaime también es un colega amable y solidario que siempre está dispuesto a ayudar a los demás y compartir su conocimiento. Fue un placer trabajar con Jaime y lo recomendaría ampliamente para cualquier proyecto de desarrollo de software que requiera experiencia, pasión y una mentalidad colaborativa.",
+    "testimonial2Title": "Nicolas Andres Olaya",
+    "testimonial2Description": "Recomiendo encarecidamente a mi amigo como desarrollador Full Stack. Es extremadamente puntual, respetuoso y trabajador. Tiene una sólida comprensión de los lenguajes y frameworks de programación, y se dedica a mejorar constantemente sus habilidades. Es un gran trabajador de equipo y siempre está dispuesto a echar una mano. No tengo ninguna duda de que será un activo valioso para cualquier empresa o proyecto en el que trabaje."
+  },
+  "contact": {
+    "titleSmall": "",
+    "titleBig": "Contáctame",
+    "sendMessage": "Enviar un Mensaje",
+    "namePlaceholder": "Nombre",
+    "emailPlaceholder": "Email",
+    "messagePlaceholder": "Mensaje",
+    "sendButton": "Enviar"
+  },
+  "footer": {
+    "home": "Inicio",
+    "about": "Acerca De",
+    "experience": "Experiencia",
+    "services": "Servicios",
+    "portfolio": "Portafolio",
+    "testimonials": "Testimonios",
+    "contact": "Contacto"
+  }
+}
