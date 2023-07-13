@@ -1,20 +1,22 @@
 import React from 'react'
 import './footer.css'
 import { FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa'
+import { useTranslation } from 'react-i18next'
 
 const Footer = () => {
+  const [t, i18n] = useTranslation('global');
   return (
     <footer>
-      <a href="#" className='footer__logo'>JVILLEGAS</a>
+      <a href="#" className='footer__logo'>JAIME VILLEGAS</a>
 
       <ul className='permalinks'>
-        <li><a href="#">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#testimonials">Testimonials</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#">{t("footer.home")}</a></li>
+        <li><a href="#about">{t("footer.about")}</a></li>
+        <li><a href="#experience">{t("footer.experience")}</a></li>
+        <li><a href="#services">{t("footer.services")}</a></li>
+        <li><a href="#portfolio">{t("footer.portfolio")}</a></li>
+        <li><a href="#testimonials">{t("footer.testimonials")}</a></li>
+        <li><a href="#contact">{t("footer.contact")}</a></li>
       </ul>
 
       <div className="footer__socials">

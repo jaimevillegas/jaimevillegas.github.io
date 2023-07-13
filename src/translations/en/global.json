@@ -65,5 +65,14 @@
     "emailPlaceholder": "Email",
     "messagePlaceholder": "Message",
     "sendButton": "Send Message"
+  },
+  "footer": {
+    "home": "Home",
+    "about": "About",
+    "experience": "Experience",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "testimonials": "Testimonials",
+    "contact": "Contact"
   }
 }
