@@ -51,5 +51,13 @@
     "titleSmall": "Traajo Reciente",
     "titleBig": "Portafolio",
     "liveDemo": "Ver Demo"
+  },
+  "testimonials": {
+    "titleSmall": "",
+    "titleBig": "Testimonios",
+    "testimonial1Title": "Shayan Ali Bakhsh",
+    "testimonial1Description": "Jaime es un desarrollador de software excepcional con quien tuve el privilegio de trabajar en una aplicación web. La atención de Jaime a los detalles y las habilidades para resolver problemas fueron realmente impresionantes, y constantemente entregó un trabajo de alta calidad. Es una persona dedicada y motivada que siempre va más allá para garantizar el éxito de su equipo. Jaime también es un colega amable y solidario que siempre está dispuesto a ayudar a los demás y compartir su conocimiento. Fue un placer trabajar con Jaime y lo recomendaría ampliamente para cualquier proyecto de desarrollo de software que requiera experiencia, pasión y una mentalidad colaborativa.",
+    "testimonial2Title": "Nicolas Andres Olaya",
+    "testimonial2Description": "Recomiendo encarecidamente a mi amigo como desarrollador Full Stack. Es extremadamente puntual, respetuoso y trabajador. Tiene una sólida comprensión de los lenguajes y frameworks de programación, y se dedica a mejorar constantemente sus habilidades. Es un gran trabajador de equipo y siempre está dispuesto a echar una mano. No tengo ninguna duda de que será un activo valioso para cualquier empresa o proyecto en el que trabaje."
   }
 }
