@@ -46,5 +46,10 @@
     "MechService1": "Diseño de sistemas: Especialización en diseño e integración de sistemas mecatrónicos, combinando principios mecánicos, eléctricos y de control.",
     "MechService2": "Automatización y Robótica: Experiencia en el diseño y desarrollo de sistemas robóticos y de automatización para el sector industrial, optimizando eficiencia y productividad.",
     "MechService3": "Diseño Desarrollo para Sistemas Embebidos: Programación y desarrollo en plataformas PIC, Arduino, ESP32 y Raspberry Pi. Diseño de Placas de Circuito Impreso PCB integrando sistemas electrónicos con dispositivos programados."
+  },
+  "portfolio": {
+    "titleSmall": "Traajo Reciente",
+    "titleBig": "Portafolio",
+    "liveDemo": "Ver Demo"
   }
 }

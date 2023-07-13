@@ -43,5 +43,10 @@
     "MechService1": "System Design and Integration: I specialize in designing and integrating complex mechatronic systems by combining mechanical, electrical, and control engineering principles.",
     "MechService2": "Robotics and Automation: I possess expertise in designing and developing robotic systems and automation solutions for various industries, optimizing efficiency and productivity.",
     "MechService3": "Embedded Systems Development: Programming and development of embedded systems for mechatronic applications, including microcontroller programming, firmware development, and interfacing with sensors and actuators."
+  },
+  "portfolio": {
+    "titleSmall": "My Recent Work",
+    "titleBig": "Portfolio",
+    "liveDemo": "Live Demo"
   }
 }
