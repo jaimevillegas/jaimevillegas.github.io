@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useEffect, useState, useRef } from 'react'
+import 'intersection-observer'
 import Header from './components/header/Header'
 import Nav from './components/nav/Nav'
 import About from './components/about/About'
@@ -28,18 +29,74 @@ i18next.init({
 });
 
 const App = () => {
+  const [activeNav, setActiveNav] = useState('#');
+  const navItemsRef = useRef([]);
+  const observer = useRef(null);
+
+  useEffect(() => {
+    observer.current = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          console.log(entry);
+          if (entry.isIntersecting) {
+            setActiveNav(entry.target.getAttribute('id'));
+          }
+      });
+    },
+      { rootMargin: '0px', threshold: 0.5, root: null }
+    );
+
+    navItemsRef.current.forEach((ref) => {
+      if (ref.current) {
+        observer.current.observe(ref.current);
+      }
+    });
+
+    return () => {
+      observer.current.disconnect();
+    };
+  }, []);
+
+  const createNavItemRef = (index) => {
+    navItemsRef.current[index] = React.createRef();
+    // navItemsRef.current[index] = React.useRef();
+    console.log(navItemsRef.current[index]);  
+    // console.log(React.createRef());
+  };
+
   return (
     <>
       <I18nextProvider i18n={i18next}>
-        <Header />
-        <Nav />
-        <About />
-        <Experience />
-        <Services />
-        <Portfolio />
-        <Testimonials />
-        <Contact />
-        <Footer />
+        <div className="category" id='#' ref={createNavItemRef(0)}>
+          <Header />
+          <Nav />
+        </div>
+
+        <div className="category" id='#about' ref={createNavItemRef(1)}>
+          <About />
+        </div>
+
+        <div className="category" id='#experience'>
+          <Experience />
+        </div>
+
+        <div className="category" id='#services'>
+          <Services />
+        </div>
+
+        <div className="category" id='#portfolio'>
+          <Portfolio />
+        </div>
+
+        <div className="category" id='#testimonials'>
+          <Testimonials />
+        </div>
+
+        <div className="category" id='#contact'>
+          <Contact />
+          <Footer />
+        </div>
+
       </ I18nextProvider>
     </>
   )
