@@ -52,7 +52,7 @@ const Header = () => {
             </div>
           </div>
           <h5>{t("header.h5")}</h5>
-          <h1>Jaime Villegas</h1>
+          <h1 class='header-name'>JAIME VILLEGAS</h1>
           <h5 className="text-light">{t("header.description")}</h5>
           <CTA />
 
@@ -60,7 +60,6 @@ const Header = () => {
             <img src={ME} alt="me" />
           </div>
 
-          {/* <a href="#contact" className='scroll__down'>Scroll Down</a> */}
           <a href="#contact" className='scroll__down'>{t("header.scroll")}</a>
 
           <HeaderSocials />
