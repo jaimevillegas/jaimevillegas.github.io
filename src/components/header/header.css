@@ -45,6 +45,10 @@ header {
   transition: 0.5s;
 }
 
+.header-name {
+  font-size: 3.5rem;
+}
+
 /* ======== CTA ======== */
 .cta {
   margin-top: 2.5rem;
