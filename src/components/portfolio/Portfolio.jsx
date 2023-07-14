@@ -6,9 +6,18 @@ import IMG3 from '../../assets/portfolio3.png'
 import IMG4 from '../../assets/portfolio4.png'
 import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio6.png'
+import IMG7 from '../../assets/nasaverse.png'
 import { useTranslation } from 'react-i18next'
 
 const data = [
+  {
+    id: 0,
+    image: IMG7,
+    title: 'NASAverse',
+    github: 'https://github.com/jaimevillegas/Module-2-Capstone-Project/tree/main',
+    demo: 'https://jaimevillegas.github.io/Module-2-Capstone-Project/'
+
+  },
   {
     id: 1,
     image: IMG1,
@@ -32,20 +41,13 @@ const data = [
   },
   {
     id: 4,
-    image: IMG4,
-    title: 'Rails Blog App',
-    github: '#',
-    demo: '#'
-  },
-  {
-    id: 5,
     image: IMG5,
     title: 'Artist Metrics Webapp',
     github: 'https://github.com/jaimevillegas/artist-metrics-webapp',
     demo: 'https://artist-metrics-webapp.onrender.com/artist-metrics-webapp'
   },
   {
-    id: 6,
+    id: 5,
     image: IMG6,
     title: 'PLL FM Dashboard',
     github: 'https://github.com/jaimevillegas/PLL-FM-LVGL',
