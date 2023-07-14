@@ -32,7 +32,7 @@ const App = () => {
     <>
       <I18nextProvider i18n={i18next}>
         <Header />
-        <Nav />
+        {/* <Nav /> */}
         <About />
         <Experience />
         <Services />
