@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.d85f8929.css",
-    "main.js": "/static/js/main.0d116e8f.js",
+    "main.css": "/static/css/main.b3e65cb1.css",
+    "main.js": "/static/js/main.93984a45.js",
+    "static/media/nasaverse.png": "/static/media/nasaverse.b15a4771850bd42ec77a.png",
     "static/media/portfolio1.png": "/static/media/portfolio1.88daec8f7236e1f9acf5.png",
     "static/media/me-1.png": "/static/media/me-1.a321724a7ac6acb651fd.png",
     "static/media/me-about.png": "/static/media/me-about.026efba231857ab280d7.png",
@@ -14,11 +15,11 @@
     "static/media/resume.pdf": "/static/media/resume.30342f0279ea776e0971.pdf",
     "static/media/avatar1.jpg": "/static/media/avatar1.966a5d8a987710a89f7e.jpg",
     "index.html": "/index.html",
-    "main.d85f8929.css.map": "/static/css/main.d85f8929.css.map",
-    "main.0d116e8f.js.map": "/static/js/main.0d116e8f.js.map"
+    "main.b3e65cb1.css.map": "/static/css/main.b3e65cb1.css.map",
+    "main.93984a45.js.map": "/static/js/main.93984a45.js.map"
   },
   "entrypoints": [
-    "static/css/main.d85f8929.css",
-    "static/js/main.0d116e8f.js"
+    "static/css/main.b3e65cb1.css",
+    "static/js/main.93984a45.js"
   ]
 }
