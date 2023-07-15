@@ -10,6 +10,11 @@ import IMG3 from '../../assets/portfolio3.png'
 import IMG4 from '../../assets/portfolio4.png'
 import IMG5 from '../../assets/portfolio5.png'
 
+import CADImg1 from '../../assets/gallery/cad1.PNG'
+import CADImg2 from '../../assets/gallery/cad2.PNG'
+import CADImg3 from '../../assets/gallery/cad3.PNG'
+import CADImg4 from '../../assets/gallery/cad4.PNG'
+
 
 
 import 'swiper/css/bundle';
@@ -17,7 +22,6 @@ import 'swiper/css/bundle';
 function GalleryMech() {
   return (
     <>
-      <div>GallerMech</div>
        <Swiper
         slidesPerView={1}
         spaceBetween={30}
@@ -27,16 +31,20 @@ function GalleryMech() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src={IMG1} alt="" />
-
+          <img src={CADImg1} alt="" className='img-slide' />
+          <p>holi</p>
         </SwiperSlide>
-        <SwiperSlide>
 
-          <img src={IMG2} alt="" />
+        <SwiperSlide>
+          <img src={CADImg2} alt="" className='img-slide'/>
         </SwiperSlide>
-        <SwiperSlide>
 
-          <img src={IMG3} alt="" />
+        <SwiperSlide>
+          <img src={CADImg3} alt="" className='img-slide'/>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <img src={CADImg4} alt="" className='img-slide'/>
         </SwiperSlide>
       </Swiper>
     </>
