@@ -8,6 +8,7 @@ import Portfolio from './components/portfolio/Portfolio'
 import Testimonials from './components/testimonials/Testimonials'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
+import Gallery from './components/gallery/Gallery'
 
 import global_en from './translations/en/global.json'
 import global_es from './translations/es/global.json'
@@ -31,15 +32,16 @@ const App = () => {
   return (
     <>
       <I18nextProvider i18n={i18next}>
-        <Header />
-        {/* <Nav /> */}
-        <About />
-        <Experience />
-        <Services />
-        <Portfolio />
-        <Testimonials />
-        <Contact />
-        <Footer />
+          <Header />
+          {/* <Nav /> */}
+          <About />
+          <Gallery />
+          <Experience />
+          <Services />
+          <Portfolio />
+          <Testimonials />
+          <Contact />
+          <Footer />
       </ I18nextProvider>
     </>
   )
