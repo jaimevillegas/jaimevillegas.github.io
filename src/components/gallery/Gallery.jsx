@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next'
 import { Box, Tab } from '@mui/material';
 import { TabContext, TabList, TabPanel } from '@mui/lab';
+import './gallery.css'
 
 import GalleryWeb from './GalleryWeb';
 import GalleryCAD from './GalleryCAD';
