@@ -4,17 +4,14 @@ import React, { useRef, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Navigation } from 'swiper';
 
-import IMG1 from '../../assets/portfolio1.png'
-import IMG2 from '../../assets/portfolio2.png'
-import IMG3 from '../../assets/portfolio3.png'
-import IMG4 from '../../assets/portfolio4.png'
-import IMG5 from '../../assets/portfolio5.png'
 
-import CADImg1 from '../../assets/gallery/cad1.PNG'
-import CADImg2 from '../../assets/gallery/cad2.PNG'
-import CADImg3 from '../../assets/gallery/cad3.PNG'
-import CADImg4 from '../../assets/gallery/cad4.PNG'
-
+import mechImg1 from '../../assets/gallery/mech/mech1.png'
+import mechImg2 from '../../assets/gallery/mech/mech2.png'
+import CADImg1 from '../../assets/gallery/cad/cad1.png'
+import CADImg2 from '../../assets/gallery/cad/cad2.png'
+import CADImg3 from '../../assets/gallery/cad/cad3.png'
+import CADImg4 from '../../assets/gallery/cad/cad4.png'
+import CADImg5 from '../../assets/gallery/cad/cad5.png'
 
 
 import 'swiper/css/bundle';
@@ -22,14 +19,24 @@ import 'swiper/css/bundle';
 function GalleryMech() {
   return (
     <>
-       <Swiper
+       < Swiper
         slidesPerView={1}
         spaceBetween={30}
         loop={true}
         navigation={true}
+        pagination={{ clickable: true }}
         modules={[Pagination, Navigation]}
         className="mySwiper"
       >
+        <SwiperSlide>
+          <img src={mechImg1} alt="" className='img-slide' />
+          <p>holi</p>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <img src={mechImg2} alt="" className='img-slide'/>
+        </SwiperSlide>
+
         <SwiperSlide>
           <img src={CADImg1} alt="" className='img-slide' />
           <p>holi</p>
@@ -46,6 +53,11 @@ function GalleryMech() {
         <SwiperSlide>
           <img src={CADImg4} alt="" className='img-slide'/>
         </SwiperSlide>
+
+        <SwiperSlide>
+          <img src={CADImg5} alt="" className='img-slide'/>
+        </SwiperSlide>
+
       </Swiper>
     </>
   )
