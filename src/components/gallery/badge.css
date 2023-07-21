@@ -1,0 +1,25 @@
+.badges-section {
+  display: flex;
+  gap: 20px;
+}
+
+.badge-container {
+  background-color: var(--color-bg-variant);
+  border-radius: 12px;
+  display: flex;
+  width: min-content;
+  padding: 0.5rem;
+  align-items: center;
+  gap: 6px;
+}
+
+.badge-image {
+  width: 32px;
+  height: 32px;
+  border-radius: 20%;
+}
+
+.badge-content {
+  width: max-content;
+  font-size: 14px;
+}

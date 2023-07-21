@@ -1,6 +1,6 @@
 .img-slide {
   margin: auto;
-  max-width: 60%;
+  width: 70%;
   box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 10px;
   margin-bottom: 2rem;
@@ -11,4 +11,27 @@
   max-width: 60%;
   border-radius: 10px;
   margin-bottom: 2rem;
+}
+
+.badges-container {
+  display: flex;
+  gap: 12px;
+}
+
+.slide-description {
+  font-size: 14px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.swiper-slide {
+  margin-bottom: 20px;
+}
+
+.swiper-pagination {
+  margin-bottom: 0;
+}
+
+.slide-container {
+  padding: 50px;
 }
