@@ -11,6 +11,7 @@
   padding: 0.5rem;
   align-items: center;
   gap: 6px;
+  margin-top: 20px;
 }
 
 .badge-image {
@@ -21,5 +22,5 @@
 
 .badge-content {
   width: max-content;
-  font-size: 14px;
+  font-size: 12px;
 }
