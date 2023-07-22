@@ -1,25 +1,38 @@
 {
   "files": {
-    "main.css": "/static/css/main.b3e65cb1.css",
-    "main.js": "/static/js/main.93984a45.js",
-    "static/media/nasaverse.png": "/static/media/nasaverse.b15a4771850bd42ec77a.png",
+    "main.css": "/static/css/main.9e1bab54.css",
+    "main.js": "/static/js/main.3ffd0544.js",
+    "static/media/nasaverse.png": "/static/media/nasaverse.b624ee9db67c02b15822.png",
+    "static/media/mech2.png": "/static/media/mech2.45b419cde2c2cb637226.png",
+    "static/media/cad4.png": "/static/media/cad4.71e64d4ba3653b5186d2.png",
+    "static/media/mech1.png": "/static/media/mech1.96f44cbd148832aff1da.png",
+    "static/media/cad1.png": "/static/media/cad1.cdec9315efb6e70a95f3.png",
+    "static/media/space_traveller.png": "/static/media/space_traveller.40a713356535b1f382b4.png",
+    "static/media/cad2.png": "/static/media/cad2.003b00b16986684b7de9.png",
+    "static/media/robotics.png": "/static/media/robotics.ccf7e454ec740fed8db4.png",
     "static/media/portfolio1.png": "/static/media/portfolio1.88daec8f7236e1f9acf5.png",
+    "static/media/cad3.png": "/static/media/cad3.501d329d085506755744.png",
     "static/media/me-1.png": "/static/media/me-1.a321724a7ac6acb651fd.png",
     "static/media/me-about.png": "/static/media/me-about.026efba231857ab280d7.png",
+    "static/media/cad5.png": "/static/media/cad5.afea1aeee35126729df9.png",
+    "static/media/pll_squareline.png": "/static/media/pll_squareline.7b04b6e732fbf88b6eec.png",
     "static/media/portfolio4.png": "/static/media/portfolio4.b4635eb239b3126fbaae.png",
     "static/media/portfolio6.png": "/static/media/portfolio6.e0b9b66cccbce43f1c1a.png",
     "static/media/portfolio5.png": "/static/media/portfolio5.0b3665ba5885ade9f332.png",
     "static/media/portfolio2.png": "/static/media/portfolio2.00b976490d95f7bd2665.png",
     "static/media/avatar2.jpg": "/static/media/avatar2.720cd74b256d9bfc99fc.jpg",
+    "static/media/artist_metrics.png": "/static/media/artist_metrics.5257ca06d8663036385b.png",
+    "static/media/bookstore.png": "/static/media/bookstore.ace28796b8df4df2af5f.png",
+    "static/media/iot_expenses.png": "/static/media/iot_expenses.70ef859061cbac12707f.png",
     "static/media/portfolio3.png": "/static/media/portfolio3.e161e799c2d8511c513c.png",
     "static/media/resume.pdf": "/static/media/resume.30342f0279ea776e0971.pdf",
     "static/media/avatar1.jpg": "/static/media/avatar1.966a5d8a987710a89f7e.jpg",
     "index.html": "/index.html",
-    "main.b3e65cb1.css.map": "/static/css/main.b3e65cb1.css.map",
-    "main.93984a45.js.map": "/static/js/main.93984a45.js.map"
+    "main.9e1bab54.css.map": "/static/css/main.9e1bab54.css.map",
+    "main.3ffd0544.js.map": "/static/js/main.3ffd0544.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3e65cb1.css",
-    "static/js/main.93984a45.js"
+    "static/css/main.9e1bab54.css",
+    "static/js/main.3ffd0544.js"
   ]
 }
