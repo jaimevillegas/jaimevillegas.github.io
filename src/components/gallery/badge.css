@@ -1,0 +1,42 @@
+.badges-section {
+  display: flex;
+  gap: 20px;
+}
+
+.badge-container {
+  background-color: var(--color-bg-variant);
+  border-radius: 12px;
+  display: flex;
+  width: min-content;
+  padding: 0.5rem;
+  align-items: center;
+  gap: 6px;
+  margin-top: 0px;
+}
+
+.badge-image {
+  width: 32px;
+  height: 32px;
+  border-radius: 20%;
+}
+
+.badge-content {
+  width: max-content;
+  font-size: 12px;
+}
+
+/* ======== media querie small devices ======== */
+@media screen and (max-width: 768px) {
+  .badges-section {
+    /* margin: 20px; */
+    /* border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; */
+
+
+    /* display: grid; */
+    /* grid-template-columns: 1fr; */
+    /* gap: 20px; */
+  }
+}

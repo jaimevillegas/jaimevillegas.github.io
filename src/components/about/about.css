@@ -1,3 +1,8 @@
+#about {
+  /* height: 100vh; */
+  margin-bottom: 4rem;
+}
+
 .about__container {
   margin: 80px;
   display: grid;
@@ -6,7 +11,8 @@
 }
 
 .about__me {
-  width: 80%;
+  width: 70%;
+  margin: auto;
   aspect-ratio: 1/1;
   border-radius: 2rem;
   background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
@@ -64,7 +70,8 @@
 }
 
 .about__content p {
-  margin: 2rem 0 2.6rem;
+  margin: 5rem 0 3.6rem;
+  font-size: 1.2rem;
   color: var(--color-light);
 }
 

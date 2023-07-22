@@ -22,7 +22,7 @@ const About = () => {
         </div>
 
         <div className="about__content">
-          <div className="about__cards">
+          {/* <div className="about__cards">
             <article className="about__card">
               <FaAward className='about__icon' />
               <h5>{t("about.ExperienceTitle")}</h5>
@@ -42,7 +42,7 @@ const About = () => {
               <h5>{t("about.ProjectsTitle")}</h5>
               <small>{t("about.ProjectsDescription")}</small>
             </article>
-          </div>
+          </div> */} 
 
           <p>{t("about.AboutDescription")}</p>
 
