@@ -1,6 +1,17 @@
+h2 {
+  text-align: center;
+  color: var(--color-primary);
+  margin-bottom: 2rem;
+}
+
+h5 {
+  text-align: center;
+  color: var(--color-light);
+}
+
 .img-slide {
   margin: auto;
-  width: 70%;
+  width: 55%;
   box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 10px;
   margin-bottom: 2rem;
@@ -8,7 +19,7 @@
 
 .img-slide-2 {
   margin: auto;
-  width: 70%;
+  width: 55%;
   border-radius: 10px;
   margin-bottom: 2rem;
 }
@@ -34,4 +45,44 @@
 
 .slide-container {
   padding: 50px;
+}
+
+/* ===== MEDIA QUERIES SMALL DEVICES ===== */
+@media screen and (max-width: 768px) {
+  .img-slide {
+    width: 100%;
+  }
+
+  .img-slide-2 {
+    width: 100%;
+  }
+
+  .slide-container {
+    padding: 0;
+  }
+
+  .slide-description {
+    font-size: 12px;
+    padding: 0 50px;
+    text-align: center;
+  }
+
+  .portfolio__item-cta {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .badges-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+  }
+
 }

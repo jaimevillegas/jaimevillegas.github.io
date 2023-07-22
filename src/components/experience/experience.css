@@ -68,3 +68,11 @@
     padding: 2rem 1rem;
   }
 }
+
+/* ====== MEDIA QUERIES (EXTRA SMALL DEVICES) ====== */
+@media (max-width: 400px) {
+  .experience__container > div {
+    /* width: 95%; */
+    padding: 2rem 0.5rem;
+  }
+}

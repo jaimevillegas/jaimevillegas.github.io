@@ -46,7 +46,7 @@ header {
 }
 
 .header-name {
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
 
 /* ======== CTA ======== */
@@ -80,8 +80,8 @@ header {
 .me {
   /* background: linear-gradient(#8ed5f8, transparent); */
   background: #8ed5f8;
-  width: 32rem;
-  height: 32rem;
+  width: 25rem;
+  /* height: 32rem; */
   margin: auto;
   /* position: absolute; */
   /* left: calc(50% - 11rem); */
@@ -117,8 +117,8 @@ header {
   }
 
   .me {
-    width: 20rem;
-    height: 20rem;
+    width: 15rem;
+    /* height: 20rem; */
     border-radius: 10rem 10rem 0 0;
   }
 
