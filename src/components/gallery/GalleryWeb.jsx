@@ -9,6 +9,7 @@ import webImg3 from '../../assets/gallery/web/robotics.png'
 import webImg4 from '../../assets/gallery/web/bookstore.png'
 import webImg5 from '../../assets/gallery/web/artist_metrics.png'
 import webImg6 from '../../assets/gallery/web/iot_expenses.png'
+import webImg7 from '../../assets/gallery/web/glamping.png'
 
 import jsBadge from '../../assets/badges/javascript.png'
 import htmlBadge from '../../assets/badges/html5.png'
@@ -33,6 +34,25 @@ function GalleryWeb() {
       >
         <SwiperSlide>
           <div className="slide-container">
+            <img src={webImg7} alt="" className='img-slide-2' />
+            <h2>Book a Reservation</h2>
+            <p className='slide-description'>Book a Reservation is a full-stack web application that lets the user See a list of glampings, See the details of each glamping, Make a reservation to the glamping, Add a glamping Item, Delete a glamping Item, and List all reservations for a given glamping. You can login as 'jaime'</p>
+            <div className="portfolio__item-cta">
+              <a href='https://github.com/jaimevillegas/book-a-reservation-backend' target='_blank' className='btn'>Github</a>
+              <a href='https://g-reservations.netlify.app/' target='_blank' className='btn btn-primary'>Live Demo</a>
+            </div>
+            <div className="badges-container">
+              <Badge name='HTML' image={htmlBadge} />
+              <Badge name='CSS' image={cssBadge} />
+              <Badge name='JavaScript' image={jsBadge} />
+              <Badge name='React' image={reactBadge} />
+              <Badge name='Redux' image={reduxBadge} />
+              <Badge name='Ruby on Rails' image={rubyBadge} />
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="slide-container">
             <img src={webImg1} alt="" className='img-slide' />
             <h2>NASAverse - Explore the Universe</h2>
             <p className='slide-description'>NASAverse - Explore the Universe is a web gallery that allows users to explore images of planets and galaxies from NASA images archive API. It lets the user add comments and add likes for the items of the gallery, making it more interactive. </p>
@@ -54,8 +74,8 @@ function GalleryWeb() {
             <h2>Space Traveler's Hub</h2>
             <p className='slide-description'>Space Traveler's Hub is a website that shows Rockets and missions using SpaceX API, and let you display a list of Rockets and Missions, reserve Rockets and Join Missions.</p>
             <div className="portfolio__item-cta">
-              <a href='#' target='_blank' className='btn'>Github</a>
-              <a href='#' target='_blank' className='btn btn-primary'>Live Demo</a>
+              <a href='https://github.com/jaimevillegas/space-travellers-hub' target='_blank' className='btn'>Github</a>
+              <a href='https://space-travellers-hub-sr5w.onrender.com/' target='_blank' className='btn btn-primary'>Live Demo</a>
             </div>
             <div className="badges-container">
               <Badge name='HTML' image={htmlBadge} />
@@ -107,8 +127,8 @@ function GalleryWeb() {
             <h2>Bookstore CMS</h2>
             <p className='slide-description'>BookStore is a website for managing books, lets the user Display a list of Books, Add a Book, and Remove a selected Book.</p>
             <div className="portfolio__item-cta">
-              <a href='#' target='_blank' className='btn'>Github</a>
-              <a href='#' target='_blank' className='btn btn-primary'>Live Demo</a>
+              <a href='https://github.com/jaimevillegas/bookstore' target='_blank' className='btn'>Github</a>
+              <a href='https://bookstore-ottk.onrender.com/' target='_blank' className='btn btn-primary'>Live Demo</a>
             </div>
             <div className="badges-container">
               <Badge name='HTML' image={htmlBadge} />
